@@ -1,7 +1,10 @@
 ### DBT-BigQuery Data Warehouse Project
 
-This project uses DBT (Data Build Tool) to transform raw data in Google BigQuery into a structured warehouse for analytics and reporting. The project is organized into three main layers:
+This is a project that handles the transformation (T) in an ETL pipeline.
+- DBT (Data Build Tool) - data extraction, transformation, and modeling logic.
+- Google BigQuery - a data warehouse for storing transformed data for analytics and reporting.
 
+The project is organised in three main layers:
 1. Staging Layer: Sources and prepares raw data from various inputs, applying basic cleaning and structuring to facilitate further transformations.
 2. Warehouse Layer: Integrates staging data into consolidated tables, aggregating and organizing information for analytics purposes.
 3. Operational Business Tables (OBT): Creates reporting tables tailored for stakeholders' usage, providing business insights and facilitating data-driven decision-making.
