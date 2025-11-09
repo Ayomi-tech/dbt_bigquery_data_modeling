@@ -9,11 +9,6 @@ The project is organised in three main layers:
 2. Warehouse Layer: Integrates staging data into consolidated tables, aggregating and organizing information for analytics purposes.
 3. Operational Business Tables (OBT): Creates reporting tables tailored for stakeholders' usage, providing business insights and facilitating data-driven decision-making.
 
-## Technical Tools:
-- SQL
-- DBT
-- BigQuery
-
 ## Setup
 1. DBT-BigQuery Connection: The project is configured to connect DBT to BigQuery for managing data transformation workflows.
 
@@ -28,3 +23,8 @@ This setup aims to streamline data accessibility for stakeholders, enabling them
 1. Automated Transformations: Using DBT allows for automated and versioned data transformations.
 2. Scalability: BigQuery’s infrastructure supports handling large datasets efficiently.
 3. Stakeholder Insights: Tailored reporting tables (OBT) make data readily available and actionable.
+
+## Technical Tools:
+- SQL
+- DBT
+- BigQuery
