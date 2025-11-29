@@ -1,6 +1,6 @@
 ### DBT-BigQuery Data Warehouse Project
 
-This is a project that handles the transformation (T) in an ETL pipeline.
+This project handles the transformation (T) in an ETL pipeline.
 - DBT (Data Build Tool) - data extraction, transformation, and modeling logic.
 - Google BigQuery - a data warehouse for storing transformed data for analytics and reporting.
 
